@@ -1,15 +1,17 @@
-# jenga
+# Jenga API SDK for Python
+
+[![CI](https://github.com/paymentsdks/jenga-python/actions/workflows/ci.yml/badge.svg)](https://github.com/paymentsdks/jenga-python/actions/workflows/ci.yml)
+[![PyPI version](https://img.shields.io/pypi/v/paymentsdks-jenga.svg)](https://pypi.org/project/paymentsdks-jenga/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/paymentsdks-jenga.svg)](https://pypi.org/project/paymentsdks-jenga/)
+[![Python versions](https://img.shields.io/pypi/pyversions/paymentsdks-jenga.svg)](https://pypi.org/project/paymentsdks-jenga/)
+[![License](https://img.shields.io/pypi/l/paymentsdks-jenga.svg)](https://pypi.org/project/paymentsdks-jenga/)
 
 A Python package for interacting with selected Jenga API endpoints.
-
-Implemented features:
 
 - Reads configuration from environment variables
 - Generates access tokens
 - Signs request values with your RSA private key using `cryptography`
 - Provides both Python and CLI usage
-
-Pending endpoints are listed later in this document.
 
 ## 1. Installation
 

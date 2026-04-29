@@ -13,7 +13,7 @@ authors = [
     {name = "Njogu Amos", email = "njoguamos@gmail.com"},
 ]
 dependencies = [
-    "cryptography>=42",
+    "cryptography>=47.0.0",
 ]
 
 [project.optional-dependencies]

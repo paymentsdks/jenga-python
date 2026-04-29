@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "paymentsdks-jenga"
-version = "0.1.0"
+version = "0.2.0"
 description = "Minimal Python client for selected Jenga APIs"
 license = { text = "MIT" }
 readme = "README.md"

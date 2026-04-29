@@ -29,6 +29,16 @@ JENGA_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nreplace-with-private-key\n-----E
 JENGA_LIVE_MODE=false
 ```
 
+Generate an RSA key pair with OpenSSL before setting `JENGA_PRIVATE_KEY`:
+
+```bash
+openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
+openssl rsa -pubout -in private_key.pem -out public_key.pem
+```
+
+- Save the contents of `private_key.pem` in `JENGA_PRIVATE_KEY`.
+- Save the contents of `public_key.pem` in the Jenga dashboard under the Keys section.
+
 > [!INFO]
 > - `JENGA_LIVE_MODE=true` uses `https://api.finserve.africa` white `JENGA_LIVE_MODE=false` uses `https://uat.finserve.africa`
 > - For PEM values, you can use either real multiline values or `\n`-escaped text in `.env` files.

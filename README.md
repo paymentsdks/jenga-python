@@ -1,11 +1,6 @@
 # jenga
 
-A minimal Python package for interacting with selected Jenga API endpoints.
-
-Implemented endpoints:
-
-- `account-balance`
-- `mini-statement`
+A Python package for interacting with selected Jenga API endpoints.
 
 Implemented features:
 
@@ -201,5 +196,12 @@ PYTHONPATH=src python3 -m jenga.cli account-balance --country-code KE --account-
 - Pending endpoints are listed for roadmap visibility only.
 - See the [contribution guide](./CONTRIBUTING.md) for development and pull request workflow.
 
-## 7. License
+## 7. Releases
+
+- Tagged releases matching `v*` trigger GitHub Actions to test, build, and publish the package to PyPI automatically.
+- Example tag: `v0.1.1`
+- PyPI trusted publishing must be configured once for this repository before the workflow can publish.
+
+## 8. License
+
 License: [MIT](./LICENSE)

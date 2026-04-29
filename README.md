@@ -199,6 +199,7 @@ PYTHONPATH=src python3 -m jenga.cli account-balance --country-code KE --account-
 - This package currently focuses on a small subset of Jenga APIs.
 - The README only documents endpoints that are actually implemented in this repository.
 - Pending endpoints are listed for roadmap visibility only.
+- See the [contribution guide](./CONTRIBUTING.md) for development and pull request workflow.
 
 ## 7. License
 License: [MIT](./LICENSE)

@@ -19,7 +19,7 @@ Pending endpoints are listed later in this document.
 ## 1. Installation
 
 ```bash
-pip install jenga
+pip install paymentsdks-jenga
 ```
 
 ## 2. Configuration
